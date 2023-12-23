@@ -1,0 +1,547 @@
+body {
+	margin: 0;
+	padding: 0;
+/*padding-top: 8px;*/
+	background-color: black;
+	/*text-align: center;
+	*/
+}
+
+#centered {
+	width: 1400px;
+	text-align:center;
+	border: 0px;
+	padding: 0;
+	margin: 0 auto;
+}
+
+input {
+	
+	font-family:"Helvetica";
+	font-size: 18px;
+}
+
+
+.sub-heading {
+	color: white;
+	font-weight: bold;
+	font-family: "Helvetica";
+	font-size:30px;
+}
+
+.label_title {
+	color: white;
+	font-family: "Helvetica";
+	text-align: center; 
+	vertical-align: middle; 
+	margin-bottom: 15px; 
+	margin-top: 15px;
+}
+
+
+
+.nav_ul {
+	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+  	background-color: white;
+  	
+}
+
+.admin-dash-p {
+	
+	font-family:"Helvetica";
+	color:white;
+	font-size:45px;
+	/* float:left; */
+
+}
+
+.the-latest {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	
+}
+
+.latest-div {
+	
+	height: fit-content;
+	justify-content: center;
+	
+}
+
+.left-side-admin {
+	flex: 1;
+	
+	
+}
+
+.right-side-admin {
+	flex: 1;
+	border: 3px solid white;
+	border-radius: 20px;
+	margin-bottom: 10px;
+	padding: 20px;
+	background-color:white;
+}
+
+.latest-header {
+	
+	font-family:"Helvetica";
+	color:white;
+	font-size: 25px;
+	float:left;
+	margin: 20px;
+}
+
+.latest-prods {
+	padding: 20px;
+	border: 3px solid white;
+	border-radius: 20px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	background-color: black;
+}
+
+.latest-prod-additions {
+	/* margin-left: 50px; */
+	background-color: purple;
+	border: 1px solid purple;
+	border-radius: 20px;
+	text-align: left;
+	width: 95%;
+	height: fit-content;
+	padding-left: 20px; 
+}
+
+.latest-prod-additions-info {
+	
+	font-family: Helvetica;
+	font-size: 18px;
+	color: white;
+	line-height: 10px;;
+}
+
+
+.big-par {
+	font-family:"Helvetica";
+	color: white;
+	font-size: 65px;
+	float: left;
+}
+
+.info-par {
+	font-family:"Helvetica";
+	color:white;
+	font-size: 16px;
+}
+
+.nav-companyName {
+	float:left;
+	font-size:20px;
+	font-family: "Helvetica";
+  	text-decoration:none;
+	align-self:center;
+	padding:8px;
+	color:black;
+}
+
+.navLi {
+	float:right;
+	padding:8px;
+	font-size: 20px;
+	color:black;
+	font-family: "Helvetica";
+	text-decoration:none;
+}
+
+.navLi a {
+	color:black;
+	display:block;
+	text-decoration:none;
+	
+}
+
+.search-bar {
+		
+	float: left;
+	font-size:20px;
+	font-family: "Helvetica";
+	align-self: center;
+	padding: 8px;
+	
+}
+
+
+
+
+
+
+#text {
+	width: 800px;
+}
+
+.navLi a:hover {
+	opacity:70%
+}
+
+
+
+.admin-dash {
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color:purple;
+	width: 100%;
+	
+	
+	
+}
+
+.admin-dash-list {
+	font-family:"HELVETICA";
+	font-size:25px;
+	background:none;
+	display:block;
+	float:left;
+	padding:10px;
+}
+
+.admin-dash-list a {
+	
+	color:white;
+	text-decoration:none;
+}
+
+.admin-dash-list-ignore {
+	
+	font-size:25px;
+	color:white;
+	background:none;
+	display:block;
+	float:left;
+	padding:10px;
+}
+
+.admin-dash-list:hover {
+	background-color: white;
+}
+
+.admin-dash-list:hover a {
+	color:black;
+}
+
+.admin-dash-list-link {
+	width: 25%;
+	padding:10px;
+}
+
+
+.inventory-table {
+	width:100%;
+	font-family:"Helvetica";
+	font-size:16px;
+	background:none;
+}
+
+.inventory-table-heading {
+	
+	background-color: white;
+	color:black;
+	font-size:20px;
+	padding: 1px;
+}
+
+.inventory-table-heading-col-addr {
+	background-color: yellow;
+	
+}
+
+
+.inventory-table-data-col {
+	border:1px solid white;
+	color:white;
+}
+
+
+.inventory-table-data-col a {
+	text-decoration:none;
+	color:white;
+}
+
+inventory-table-data-col a:hover {
+	
+	opacity:10%;
+}
+
+.main-menu-list {
+	list-style-type: none;
+	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+  	background-color: white;
+  	border:1px solid lightgray;
+	
+}
+
+.main-menu-list-link {
+	float:left;
+	padding:8px;
+	font-size: 14px;
+	font-family: "Helvetica";
+	text-decoration:none;
+}
+
+.main-menu-list-link a {
+	color:black;
+	display: block;
+	text-decoration: none;
+}
+
+.main-menu-list-link a:hover {
+	opacity:50%;
+}
+
+
+/* .search {
+	
+} */
+
+.inventory_table_div {
+	align-items: center;
+	/* border: 1px solid white; */
+	width:100%;
+
+}
+
+table {
+	/* border-spacing: 1.5px; */
+	align-self: center;
+	width: 100%;
+	background-color: black;
+	color:white;
+	font-family: "Helvetica";
+	
+}
+
+table thead tr {
+	font-size: 20px;
+	color: white
+}
+
+table thead tr th {
+	margin: 0px;
+	padding: 2px;
+	background-color: #ffb366;
+}
+
+table thead tr {
+	font-family: "Helvetica";
+	color: white;
+	font-size: 18px;
+	background-color: black;
+}
+
+table td img {
+    max-width: 100%; /* Ensure images don't exceed the width of their container */
+    display: block; /* Ensure each image is on a new line */
+    width: 100%; /* Set the width to fill the container */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+
+table tr.classEven {
+	background-color: #ffd9b3;
+}
+
+table tr td,th {
+	padding: 2px;
+}
+
+
+.grid {
+	margin-left:5%;
+	display: grid;
+  	grid-template-columns: repeat(4, minmax(20%, auto));
+  	max-width: var(--max-width);
+  	max-width: 90%;
+  	margin-top:5%;
+  	padding: 10px;
+  	gap: 5px;
+  	
+}
+
+.card{
+	
+	height:420px;
+  	/* background: rgb(60,60,60); */
+  	transition: background 200ms, border 200ms;
+}
+
+.brandCard {
+	
+	height:150px;
+	background:none;
+	border: 1px solid white;
+	border-radius: 5px;
+	
+}
+
+.brandCard span {
+	margin-top: 10%;
+	margin-left: 10%;
+}
+
+.brandCard:hover {
+	
+	background-color:white;
+	color:black;
+}
+
+
+
+.brandCard:hover span {
+	
+	color:black;
+}
+
+
+
+.prodIm {
+	height:70%;
+	width:80%;
+	border:1px solid white;
+	
+}
+
+.featured-add-button {
+    margin-top: 10px;
+    width: 80%;
+    background-color: white;
+    font-family: "Helvetica";
+    font-size: 16px;
+    border: 1px solid white;
+    float: left;
+}
+
+.featured-add-button:hover {
+    background-color: black;
+    color: white;
+}
+
+.featured-add-button-admin {
+    width: 100%;
+    background-color: white;
+    font-family: "Helvetica";
+    font-size: 16px;
+    border: 1px solid white;
+}
+
+.featured-add-button-admin:hover {
+    background-color: black;
+    color: white;
+}
+
+.back-button {
+    width: 50%;
+    background-color: white;
+    font-family: "Helvetica";
+    font-size: 16px;
+    border: 1px solid white;
+}
+
+.back-button:hover {
+    background-color: black;
+    color: white;
+}
+
+.add-product {
+	
+	border: 1px solid white;
+	color:black;
+	font-family:"Helvetica";
+	padding: 10px;
+}
+
+
+.add-product input {
+	width:100%
+}
+
+.header-featured {
+	font-family:"Helvetica";
+	font-size: 30px;
+	height:auto;
+	padding:0;
+	color:white;
+	float:left;
+
+}
+
+.info-featured {
+	font-family:"Helvetica";
+	font-size:14px;
+	color:darkgrey;
+	float:left;
+	width: 80%;
+	text-align:left;
+}
+
+.classEven {
+	background-color: #ffd9b3;
+}
+
+
+span.tooltip_message,span.tooltip_img1 {
+	cursor: pointer;
+	display: inline-block;
+	background-color: #F20B26;
+	width: 16px;
+	height: 18px;
+	color: #ffffff;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	position: relative;
+}
+
+span.tooltip_message:hover {
+	background-color: #04FF97;
+}
+
+div.message {
+	background-color: #04FF97;
+	color: #000000;
+	position: absolute;
+	left: 18px;
+	top: -18px;
+	z-index: 1000000;
+	text-align: left;
+	width: 280px;
+}
+
+.footer {
+	background-color:white;
+	font-family:"Helvetica";
+	font-size:16px;
+}
+
+.footer-ul {
+	
+	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+	
+}
+
+.prodIm img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; 
+    object-position: center; 
+}
+

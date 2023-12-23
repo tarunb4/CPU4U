@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>User Login</title>
+	<link rel="stylesheet" href="css/bookstore.css" type="text/css" />
+</head>
+
+<body>
+	<center>
+		<h1 style="color: white; text-align: center; text-size-adjust: 200px;">User Login</h1>
+		<div style="margin: auto; width: 50%;">
+			
+			<div style="display:block;width:500px;border:1px solid white;padding:20p;height:250px">
+				
+				<form action="userLogin?action=login" method="post">
+					
+					<p><span class="info-par">USERNAME</span></p> <input style="width:90%" type="text" name="username"
+						required><br>
+					<p><span class="info-par">PASSWORD</span></p><input style="width:90%" type="password"
+						name="password" required><br>
+					<br>
+					<br>
+					<input type="submit" value="Sign In" class="back-button">
+
+				</form>
+
+				<form action="http://localhost:8080/proj/books" method="post">
+					<input type="submit" value="Back" class="back-button">
+				</form>
+			</div>
+		</div>
+	</center>
+</body>
+
+</html>
