@@ -1,5 +1,6 @@
 # CPU4U
 🛒 CPU4U – Online Computer Components Store
+
 📌 Project Overview
 
 CPU4U is a full-featured e-commerce web application built to simulate a real-world online store for computer components. The platform enables users to browse, compare, and purchase a wide range of computer hardware, including CPUs, GPUs, RAM, storage devices, and peripherals, all through an intuitive and user-friendly interface.
